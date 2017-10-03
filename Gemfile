@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'haml'
 gem 'mdbootstrap-rails', github: 'blackrat/mdbootstrap-rails'
-gem 'material-icons-rails'
+gem 'material_icons'
 
 
 group :development, :test do

@@ -1,0 +1,13 @@
+%header
+  %nav.navbar.fixed-top.navbar-expand-lg.scrolling-navbar
+    = link_to 'UbietyDVR', root_path, class: 'navbar-brand'
+
+    %button.navbar-toggler{ type: 'button', data: { toggle: 'collapse', target: '#navbar-menu' }, aria: { controls: 'navbar-menu', expanded: 'false', label: 'Toggle navigation' } }
+      = material_icon.menu
+
+    .collapse.navbar-collapse#navbar-menu
+      %ul.navbar-nav
+        %li.nav-item
+          = link_to root_path, class: 'nav-link' do
+            = material_icon.tv
+            TV Shows
